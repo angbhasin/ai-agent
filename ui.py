@@ -30,3 +30,7 @@ if uploaded_file is not None:
             st.success(f"Calorie Estimation: {calorie_estimation}")
         except Exception as e:
             st.error(f"An error occurred: {e}")
+
+# Footer
+st.markdown("---")
+st.markdown("<p style='text-align: center;'>Developed by angbhasin</p>", unsafe_allow_html=True)
